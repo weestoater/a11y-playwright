@@ -12,3 +12,13 @@ export const traverse = (array) => {
   }
   return results;
 };
+
+export const writeDateToAFile = () => {
+  const currentDate = new Date()
+    .toLocaleString("en-GB")
+    .replace(", ", "|")
+    .replaceAll("/", ".");
+  fs.writeFile("time.txt", currentDate, (err) => {
+    if (err) throw err;
+  });
+};

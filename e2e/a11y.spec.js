@@ -29,11 +29,9 @@ test("can traverse urls", async ({ page }) => {
     }
 
     if (violations.length > 0) {
-      JSON.stringify(violations);
-      fs.writeFile("../output/violations.txt", violations, (err) => {
-        if (err) {
-          //  console.error(err);
-        }
+      let data = JSON.stringify(violations);
+      fs.writeFile("../output/violations.txt", data, (err) => {
+        if (err) throw err;
       });
     }
   }
