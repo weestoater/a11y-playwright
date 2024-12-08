@@ -1,0 +1,10 @@
+[
+    {
+        "site":"http://www.bbc.co.uk/sport",
+        "pages": [
+            {"name": "Sport", "url": ""},
+            {"name": "Football", "url": "/football"},
+            {"name": "Motherwell", "url": "/football/teams/motherwell"}
+        ]
+    }
+]

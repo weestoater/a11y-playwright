@@ -1,0 +1,14 @@
+[
+    {
+        "site":"http://www.weestoater.com/",
+        "pages": [
+            {"name": "Home", "url": ""},
+            {"name": "About", "url": "#/about"},
+            {"name": "A11y", "url": "#/a11y"},
+            {"name": "Agile", "url": "#/agile"},
+            {"name": "Football", "url": "#/football"},
+            {"name": "Landie", "url": "#/landie"},
+            {"name": "React", "url": "#/react"}
+        ]
+    }
+]
